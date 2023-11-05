@@ -3,6 +3,74 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+.container {
+
+  position:relative;
+  display: inline-block
+}
+
+.container img{
+
+  display:block;
+  max-width: 100%;
+}
+
+.container p{
+  position: absolute;
+  top: 12px; 
+  left: 348px; 
+  color: white;
+  font-size: 50px;
+
+}
+
+.button-link{
+
+  text-decoration: none;
+}
+
+.container button{
+
+  position: absolute;
+  top: 215px;
+  left: 425px; 
+  transform: translate(-50%, -50%); 
+  padding: 10px 20px; 
+  background-color: white;
+  color:#5991cd;
+  border: none;
+  border-radius: 10px;
+  outline:none;
+  text-decoration: none;
+
+}
+
+
 a {
   color: #00B7FF;
 }
+
+
+.movie-container-index {
+  display: inline-block;
+  margin: 10px; 
+  text-align: center;
+  font-weight: bold;
+}
+
+.movie-container-index img {
+  max-width: 100%; 
+  height: auto;
+}
+
+.movie-details {
+  display: flex;
+}
+
+.movie-details img {
+  max-height: 100vh; 
+  width: 300px; 
+  margin-right: 40px; 
+}
+
+
